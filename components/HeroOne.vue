@@ -63,7 +63,7 @@
                         title: "Dustin Villa, Spain",
                         desc: "Combine with ideas of owner, Dustin Mahone. Arquito’s team completed a super villa with many powerful features, help owner really enjoy his life beside the beach",
                         btnUrl: "/project",
-                        imgSrc: "/images/slider/slide-1.jpg"
+                        imgSrc: "/images/slider/EV-Hero2.jpg"
                     },
                     {
                         id: 2,
