@@ -11,7 +11,7 @@
                                     <h4 class="subtitle">{{ hero.subTitle }}</h4>
                                     <h2 class="title" v-html="hero.title">{{ hero.title }}</h2>
                                     <p>{{ hero.desc }}</p>
-                                    <n-link :to="hero.btnUrl" class="btn-link">See Project</n-link>
+                                    <n-link :to="hero.btnUrl" class="btn-link">See Poopoo</n-link>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                     {
                         id: 1,
                         subTitle: "Residence",
-                        title: "Dustin Villa, <br> Spain",
+                        title: "Dustin Villa, Spain",
                         desc: "Combine with ideas of owner, Dustin Mahone. Arquito’s team completed a super villa with many powerful features, help owner really enjoy his life beside the beach",
                         btnUrl: "/project",
                         imgSrc: "/images/slider/slide-1.jpg"
@@ -68,7 +68,7 @@
                     {
                         id: 2,
                         subTitle: "Residence",
-                        title: "Dustin Villa, <br> Spain",
+                        title: "Dustin Villa, Spain",
                         desc: "Combine with ideas of owner, Dustin Mahone. Arquito’s team completed a super villa with many powerful features, help owner really enjoy his life beside the beach",
                         btnUrl: "/project",
                         imgSrc: "/images/slider/slide-2.jpg"
