@@ -8,7 +8,7 @@
                             <!-- Header Logo Start -->
                             <div class="header-logo">
                                 <n-link to="/">
-                                    <img class="fit-image" src="/images/logo/logo-white.png" alt="Header Logo">
+                                    <img class="fit-image" src="/images/logo/EV-Charger-Logo.jpg" alt="Header Logo">
                                 </n-link>
                             </div>
                             <!-- Header Logo End -->

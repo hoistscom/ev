@@ -11,7 +11,7 @@
                                     <h4 class="subtitle">{{ hero.subTitle }}</h4>
                                     <h2 class="title" v-html="hero.title">{{ hero.title }}</h2>
                                     <p>{{ hero.desc }}</p>
-                                    <n-link :to="hero.btnUrl" class="btn-link">See Poopoo</n-link>
+                                    <n-link :to="hero.btnUrl" class="btn-link">Learn More</n-link>
                                 </div>
                             </div>
                         </div>
@@ -19,19 +19,6 @@
                 </div>
             </div>
         </swiper>
-
-        <!-- Swiper Pagination Start -->
-        <div class="swiper-pagination d-md-none"></div>
-        <!-- Swiper Pagination End -->
-
-        <!-- Swiper Navigation Start -->
-        <div class="home-slider-prev swiper-button-prev d-md-flex d-none">
-            <i class="icofont-long-arrow-left"></i>
-        </div>
-        <div class="home-slider-next swiper-button-next d-md-flex d-none">
-            <i class="icofont-long-arrow-right"></i>
-        </div>
-        <!-- Swiper Navigation End -->
     </div>
 </template>
 
@@ -59,20 +46,12 @@
                 heros: [
                     {
                         id: 1,
-                        subTitle: "Residence",
-                        title: "Dustin Villa, Spain",
-                        desc: "Combine with ideas of owner, Dustin Mahone. Arquito’s team completed a super villa with many powerful features, help owner really enjoy his life beside the beach",
+                        subTitle: "Illinois Residents",
+                        title: "80% Rebate For EV Chargers",
+                        desc: "Starting July 1st, 2022, Illinois businesses and residents may receive up to 80% rebate when installing new electric vehicle chargers.",
                         btnUrl: "/project",
-                        imgSrc: "/images/slider/EV-Hero2.jpg"
+                        imgSrc: "/images/slider/EV-Charger-Hero.jpg"
                     },
-                    {
-                        id: 2,
-                        subTitle: "Residence",
-                        title: "Dustin Villa, Spain",
-                        desc: "Combine with ideas of owner, Dustin Mahone. Arquito’s team completed a super villa with many powerful features, help owner really enjoy his life beside the beach",
-                        btnUrl: "/project",
-                        imgSrc: "/images/slider/slide-2.jpg"
-                    }
                 ]
             }
         },
