@@ -12,6 +12,7 @@
                                     <h2 class="title" v-html="hero.title">{{ hero.title }}</h2>
                                     <p>{{ hero.desc }}</p>
                                     <n-link :to="hero.btnUrl" class="btn-link">Learn More</n-link>
+                                    <n-link :to="hero.btnUrl" class="btn-link cta-space">Our Services</n-link>
                                 </div>
                             </div>
                         </div>
@@ -52,8 +53,22 @@
                         btnUrl: "/project",
                         imgSrc: "/images/slider/EV-Charger-Hero.jpg"
                     },
+                    {
+                        id: 2,
+                        subTitle: "Illinois Residents",
+                        title: "80% Rebate For EV Chargers",
+                        desc: "Starting July 1st, 2022, Illinois businesses and residents may receive up to 80% rebate when installing new electric vehicle chargers.",
+                        btnUrl: "/project",
+                        imgSrc: "/images/slider/EV-Hero2.jpg"
+                    },
                 ]
             }
         },
     };
 </script>
+
+<style scoped>
+.cta-space {
+    margin-left: 1em;
+}
+</style>

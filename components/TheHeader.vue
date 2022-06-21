@@ -21,12 +21,7 @@
                                 <Navigation addClassNeme="main-menu-white" />
                                 <!-- Main Menu End -->
 
-                                <!-- Language Start -->
-                                <div class="language language-white d-md-none d-lg-flex">
-                                    <a href="javascript:void(0)">Eng</a>
-                                    <a href="javascript:void(0)"> <span>Fra</span></a>
-                                </div>
-                                <!-- Language End -->
+                                
                             </div>
                             <!-- Main Menu Language Wrapper End -->
                         </div>

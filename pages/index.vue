@@ -13,13 +13,9 @@
 
         <Counterup />
 
-        <GelleryOne />
-
         <Testimonial />
 
         <BrandLogoCarousel />
-
-        <BlogStyleOne />
 
         <Footer />
 
@@ -42,10 +38,8 @@
             AboutOne: () => import('@/components/AboutOne'),
             Features: () => import('@/components/Features'),
             Counterup: () => import('@/components/Counterup'),
-            GelleryOne: () => import('@/components/GelleryOne'),
             Testimonial: () => import('@/components/Testimonial'),
             BrandLogoCarousel: () => import('@/components/BrandLogoCarousel'),
-            BlogStyleOne: () => import('@/components/BlogStyleOne'),
             Footer: () => import('@/components/Footer'),
         },
 

@@ -2,23 +2,21 @@
     <nav class="main-menu" :class="addClassNeme">
         <ul>
             <li class="has-children">
-                <n-link to="/">Home</n-link>
+                <n-link to="#about">About Us</n-link>
             </li>
             <li class="has-children">
-                <n-link to="/about">About</n-link>
+                <n-link to="#services">Services</n-link>
             </li>
-            <li class="has-children">
-                <n-link to="/project">Project</n-link>
-                <ul class="submenu">
-                    <li>
-                        <n-link to="/project">Project</n-link>
-                    </li>
-                    <li>
-                        <n-link to="/project-details">Project Details</n-link>
-                    </li>
-                </ul>
+            <li>
+                <n-link to="#testimonials">Testimonials</n-link>
             </li>
-            <li class="has-children">
+            <li>
+                <n-link to="#ev-program">EV Program</n-link>
+            </li>
+            <li>
+                <n-link to="#contact">Contact</n-link>
+            </li>
+            <!-- <li class="has-children">
                 <n-link to="/blog">Blog</n-link>
                 <ul class="submenu">
                     <li>
@@ -28,10 +26,7 @@
                         <n-link to="/blog-details">Blog Details</n-link>
                     </li>
                 </ul>
-            </li>
-            <li>
-                <n-link to="/contact">Contact</n-link>
-            </li>
+            </li> -->
         </ul>
     </nav>
 </template>

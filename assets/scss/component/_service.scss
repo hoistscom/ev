@@ -7,7 +7,8 @@
     width: 100%;
 
     & .service-block {
-        width: 25%;
+        width: 31%;
+        margin: .5em;
         border: 1px solid $border-color;
         border-right: none;
         background: $white;
@@ -57,6 +58,7 @@
                 right:0px;
                 bottom:0px;
                 transform:scale(0,1);
+                transform-origin: left;
                 background-color: $primary;
                 transition: $transition-base;
             }
