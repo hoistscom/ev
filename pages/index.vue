@@ -17,6 +17,8 @@
 
         <BrandLogoCarousel />
 
+        <CommentForm />
+
         <Footer />
 
         <client-only>

@@ -16,6 +16,7 @@
 
         @media #{$tablet-device, $large-mobile} {
             width: 50%;
+            margin: .5em 0em;
             &:nth-of-type(2) {
                 border-bottom: 0px;
             }
@@ -43,7 +44,7 @@
 
         & .inner-box{
             position:relative;
-            min-height:330px;
+            min-height:275px;
             padding:32px 30px 25px;
 
             @media #{$desktop-device, $small-mobile} {
@@ -59,7 +60,7 @@
                 bottom:0px;
                 transform:scale(0,1);
                 transform-origin: left;
-                background-color: $primary;
+                background: linear-gradient(135deg, $primary, (darken($primary, 30)));
                 transition: $transition-base;
             }
 
@@ -106,7 +107,7 @@
                 position:relative;
                 line-height: 1;
                 color: $primary;
-                font-size:48px;
+                font-size:60px;
                 transition: $transition-base;
             }
 

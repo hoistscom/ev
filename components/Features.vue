@@ -21,9 +21,9 @@
                                 <div class="inner-box-bottom">
                                     <div class="icon">
                                         <!-- <img class="small-icon" :src="`/images/icon/${service.icon}`"/> -->
-                                        <i class="icofont">{{ service.icon }}</i>
+                                        <i :class="service.icon"></i>
                                     </div>
-                                    <n-link to="/about" class="more">more details</n-link>
+                                    <!-- <n-link to="/about" class="more">more details</n-link> -->
                                 </div>
                             </div>
                         </div>
@@ -41,33 +41,33 @@
                 services: [
                     {
                         title: "Review Infrastructure",
-                        desc: "Before any chargers may be installed, the existing infrastructure must be reviewed.",
-                        icon: "icofont-dart"
+                        desc: "Before any chargers may be installed, the existing infrastructure must be reviewed to determine project scope.",
+                        icon: "icofont-architecture"
                     },
                     {
                         title: "Feasibility Study",
-                        desc: "Bring the beautifully for your house. Just enjoy!",
-                        icon: "icofont-ruler-compass-alt"
+                        desc: "Feasibility studies are conducted to determine the existing demand for electricity and evaluate future need.",
+                        icon: "icofont-clip-board"
                     },
                     {
                         title: "Engineered Drawings",
-                        desc: "Bring nature in your house. Health is important",
-                        icon: "icofont-credit-card"
-                    },
-                    {
-                        title: "Engineering & Installation",
-                        desc: "Bring the beautifully for your house. Just enjoy!",
+                        desc: "We create blueprints that are suitable for submitting building permits to local municipalities for your projects.",
                         icon: "icofont-ruler-compass-alt"
                     },
                     {
-                        title: "Netwok Metering",
-                        desc: "Bring nature in your house. Health is important",
-                        icon: "icofont-credit-card"
+                        title: "Engineering & Installation",
+                        desc: "In addition to EV charger installation, we also offer a full suite of electrical engineering services.",
+                        icon: "icofont-charging"
+                    },
+                    {
+                        title: "Network Metering",
+                        desc: "Provides additional income by taking the excess electricity gathered from solar and adding it back to the grid.",
+                        icon: "icofont-energy-solar"
                     },
                     {
                         title: "Load Sharing",
-                        desc: "Consulting solutions and make plan to renovation",
-                        icon: "icofont-live-support"
+                        desc: "With distributed load sharing, each EV charger connected to the system will receive the same amount of electricity.",
+                        icon: "icofont-bars"
                     }
                 ]
             }
