@@ -7,7 +7,7 @@
     width: 100%;
 
     & .service-block {
-        width: 31%;
+        width: calc(33% - .9em);
         margin: .5em;
         border: 1px solid $border-color;
         border-right: none;

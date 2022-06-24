@@ -16,6 +16,7 @@ You can directly use them in pages and other components without the need to impo
 - `<Breadcrumb>` | `<breadcrumb>` (components/Breadcrumb.vue)
 - `<CommentForm>` | `<comment-form>` (components/CommentForm.vue)
 - `<Counterup>` | `<counterup>` (components/Counterup.vue)
+- `<EvProgram>` | `<ev-program>` (components/EvProgram.vue)
 - `<Features>` | `<features>` (components/Features.vue)
 - `<Footer>` | `<footer>` (components/Footer.vue)
 - `<GalleryWithFilter>` | `<gallery-with-filter>` (components/GalleryWithFilter.vue)

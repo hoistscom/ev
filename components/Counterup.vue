@@ -25,17 +25,17 @@
         data() {
             return {
                 counterUpContent: [
-                    {
-                        endVal: 8000,
-                        title: "Partner <br> worldwide"
-                    },
-                    {
-                        endVal: 1250,
-                        title: "employees and <br> staffs"
-                    },
                     { 
-                        endVal: 904,
-                        title: "project completed <br> on 60 countries"
+                        endVal: 1283,
+                        title: "Chargers <br> Installed"
+                    },
+                    {
+                        endVal: 117,
+                        title: "EV Charger <br> Products"
+                    },
+                    {
+                        endVal: 6,
+                        title: "Versatile <br> Services"
                     },
                 ]
             }

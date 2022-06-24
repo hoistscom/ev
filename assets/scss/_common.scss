@@ -24,6 +24,8 @@ a:active,
 button,
 button:focus,
 .btn,
+.read-more-btn,
+.read-more-btn:focus,
 .btn:focus,
 input,
 input:focus,
@@ -63,6 +65,10 @@ ul{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.read-more-btn {
+    margin: 0;
 }
 
 /* Section Style */

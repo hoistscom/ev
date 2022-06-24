@@ -29,6 +29,9 @@
   "Counterup": {
     "description": "Auto imported from components/Counterup.vue"
   },
+  "EvProgram": {
+    "description": "Auto imported from components/EvProgram.vue"
+  },
   "Features": {
     "description": "Auto imported from components/Features.vue"
   },

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12 position-relative">
                     <div class="section-title client-title" data-aos="fade-up" data-aos-delay="300">
-                        <h2 class="title">+2,500 clients love us</h2>
+                        <h2 class="title">100+ Clients Love Us</h2>
                     </div>
                     <div class="client-carousel" data-aos="fade-up" data-aos-delay="300">
                         <swiper :options="swiperOptions">
