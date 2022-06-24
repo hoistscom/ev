@@ -16,7 +16,8 @@
             & img {
                 transform: scale(1);
                 transition: $transition-base;
-                filter: invert(44%) sepia(74%) saturate(976%) hue-rotate(43deg) brightness(96%) contrast(102%);
+                filter: invert(50%) sepia(50%) saturate(250%) hue-rotate(43deg) brightness(20%) contrast(550%);
+                //filter: invert(44%) sepia(74%) saturate(976%) hue-rotate(43deg) brightness(96%) contrast(102%);
             }
         }
     }
