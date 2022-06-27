@@ -15,7 +15,7 @@
                         <div class="service-block" data-aos="fade-up" data-aos-delay="300" v-for="(service, index) in services" :key="index">
                             <div class="inner-box">
                                 <h5 class="title">
-                                    <n-link to="/about">{{ service.title }}</n-link>
+                                    <n-link to="#contact">{{ service.title }}</n-link>
                                 </h5>
                                 <p>{{ service.desc }}</p>
                                 <div class="inner-box-bottom">

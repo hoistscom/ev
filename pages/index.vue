@@ -13,7 +13,7 @@
 
         <Counterup />
 
-        <Testimonial />
+        <Products />
 
         <BrandLogoCarousel />
 

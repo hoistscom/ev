@@ -25,6 +25,7 @@ You can directly use them in pages and other components without the need to impo
 - `<MobileNavigation>` | `<mobile-navigation>` (components/MobileNavigation.vue)
 - `<Navigation>` | `<navigation>` (components/Navigation.vue)
 - `<OffCanvasMobileMenu>` | `<off-canvas-mobile-menu>` (components/OffCanvasMobileMenu.vue)
+- `<Products>` | `<products>` (components/Products.vue)
 - `<RelatedBlogPost>` | `<related-blog-post>` (components/RelatedBlogPost.vue)
 - `<SingleTeamMember>` | `<single-team-member>` (components/SingleTeamMember.vue)
 - `<TeamOne>` | `<team-one>` (components/TeamOne.vue)

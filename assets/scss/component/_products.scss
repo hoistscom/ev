@@ -1,0 +1,152 @@
+/*====================  
+    4.12 Products CSS
+====================*/
+.product-inner-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    & .product-block {
+        width: 48%;
+        margin: .5em;
+        border: 1px solid $border-color;
+        border-right: none;
+        background: $white;
+        position:relative;
+
+        @media #{$tablet-device, $large-mobile} {
+            width: 50%;
+            margin: .5em 0em;
+            &:nth-of-type(2) {
+                border-bottom: 0px;
+            }
+            &:nth-of-type(1) {
+                border-bottom: 0px;
+            }
+        }       
+         @media #{$extra-small-mobile} {
+            width: 100%;
+            border-right: 1px solid $border-color;
+            &:nth-of-type(3) {
+                border-bottom: 0px;
+            }
+            &:nth-of-type(2) {
+                border-bottom: 0px;
+            }
+            &:nth-of-type(1) {
+                border-bottom: 0px;
+            }
+        }
+
+        &:last-child {
+            border-right:1px solid $border-color;
+        }
+
+        & .product-inner-box{
+            position:relative;
+            min-height:275px;
+            box-shadow: 2px 2px 8px rgb(233, 233, 233);
+
+            @media #{$small-mobile, $extra-small-mobile} {
+                font-size: small;
+            }
+
+            &::before {
+                position:absolute;
+                content:'';
+                left:33%;
+                top:0px;
+                right:0px;
+                bottom:0px;
+                transform:scale(0,1);
+                transform-origin: left;
+                background: linear-gradient(135deg, $primary, (darken($primary, 30)));
+                transition: $transition-base;
+            }
+
+            &:hover {
+                &::before{
+                    transform:scale(1,1);
+                }
+                & .product-title {
+                    & a {
+                        color: $white;
+                    }
+                }
+                & .more, ul {
+                    color: $white;
+                }
+
+            }
+
+            &-right {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                left: 33%;
+                padding: 32px 30px 25px;
+                
+                & .product-list {
+                    position: relative;
+                    left: 1em;
+                }
+                & .product-item {
+                    list-style-type:disc;
+                }
+                & .product-title {
+                    position: relative;
+                    font-weight: 600;
+                    line-height: 1.4;
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+    
+                    & a {
+                        position:relative;
+                        color: $black;
+                        transition: $transition-base;
+                    }
+                }
+    
+                & p, ul{
+                    position:relative;
+                    font-size:14px;
+                    line-height:1.9;
+                    margin-bottom:25px;
+                    transition: $transition-base;
+                }
+
+            }
+
+            & .more{
+                position:relative;
+                color: $black;
+                font-size:14px;
+                font-weight:600;
+                margin-top:30px;
+                display:inline-block;
+                text-transform:uppercase;
+                transition: $transition-base;
+            }
+
+            &-left {
+                display: flex;
+                flex-direction: row;
+                position: absolute;
+                padding: 0;
+                background-color: $white-gray;
+                height: 100%;
+                width: 33%;
+
+                & .product-img{
+                    position:absolute;
+                    max-height: 95%;
+                    width: auto;
+                    width: 80%;
+                    left: 9%;
+                    bottom: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,14 +1,14 @@
 <template>
     <nav class="main-menu" :class="addClassNeme">
         <ul>
-            <li class="has-children">
+            <li>
                 <n-link to="#about">About Us</n-link>
             </li>
-            <li class="has-children">
+            <li>
                 <n-link to="#services">Services</n-link>
             </li>
             <li>
-                <n-link to="#testimonials">Testimonials</n-link>
+                <n-link to="#products">Products</n-link>
             </li>
             <li>
                 <n-link to="#ev-program">EV Program</n-link>

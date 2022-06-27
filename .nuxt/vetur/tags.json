@@ -56,6 +56,9 @@
   "OffCanvasMobileMenu": {
     "description": "Auto imported from components/OffCanvasMobileMenu.vue"
   },
+  "Products": {
+    "description": "Auto imported from components/Products.vue"
+  },
   "RelatedBlogPost": {
     "description": "Auto imported from components/RelatedBlogPost.vue"
   },

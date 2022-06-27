@@ -37,6 +37,11 @@ $value in $theme-colors {
         @if $name==warning or $name==light {
             color: $primary;
         }
+        @if $name==success {
+            color: $dark;
+            background-color: $white;
+            border: 1px solid $dark;
+        }
 
         @else if $name==white-gray {
             color: $primary;
