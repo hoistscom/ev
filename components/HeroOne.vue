@@ -1,5 +1,5 @@
 <template>
-    <div class="hero-slider">
+    <div id="hero" class="hero-slider">
         <swiper :options="swiperOptions">
             <!-- Hero Slider Item Start -->
             <div class="swiper-slide" v-for="(hero, index) in heros" :key="index">

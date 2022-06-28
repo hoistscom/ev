@@ -1,5 +1,5 @@
 <template>
-    <div class="section-padding" id="products">
+    <div class="section-padding-top" id="products">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -29,7 +29,7 @@
                                         <li class="product-item">{{ product.desc4 }}</li>
                                     </ul>
                                     <a :href="`${product.link}`" target="_blank">
-                                        <p class="btn-success btn-hover-dark read-more-btn">{{ product.title }} Products</p>
+                                        <p class="btn btn-success btn-hover-dark read-more-btn">{{ product.title }} Products</p>
                                     </a>
                                 </div>
                             </div>

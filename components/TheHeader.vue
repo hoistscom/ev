@@ -7,7 +7,7 @@
                         <div class="col-lg-2 col-md-3 col-6">
                             <!-- Header Logo Start -->
                             <div class="header-logo">
-                                <n-link to="/">
+                                <n-link to="#hero">
                                     <img class="fit-image" src="/images/logo/Chicago-EV-Logo.png" alt="Header Logo">
                                 </n-link>
                             </div>
