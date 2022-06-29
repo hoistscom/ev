@@ -38,9 +38,9 @@ $value in $theme-colors {
             color: $primary;
         }
         @if $name==success {
-            color: $dark;
-            background-color: $white;
-            border: 1px solid $dark;
+            color: $white;
+            background-color: $primary;
+            //border: 1px solid $dark;
         }
 
         @else if $name==white-gray {

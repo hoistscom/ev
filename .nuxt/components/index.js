@@ -7,6 +7,7 @@ export { default as BlogWithFilter } from '../..\\components\\BlogWithFilter.vue
 export { default as BrandLogoCarousel } from '../..\\components\\BrandLogoCarousel.vue'
 export { default as Breadcrumb } from '../..\\components\\Breadcrumb.vue'
 export { default as CommentForm } from '../..\\components\\CommentForm.vue'
+export { default as ContactForm } from '../..\\components\\ContactForm.vue'
 export { default as Counterup } from '../..\\components\\Counterup.vue'
 export { default as EvProgram } from '../..\\components\\EvProgram.vue'
 export { default as Features } from '../..\\components\\Features.vue'

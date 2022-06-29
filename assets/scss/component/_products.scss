@@ -65,17 +65,20 @@
             }
 
             &:hover {
-                &::before{
-                    transform:scale(1,1);
-                }
-                & .product-title {
-                    & a {
-                        color: $white;
-                    }
-                }
-                & .more, ul {
-                    color: $white;
-                }
+
+                box-shadow: 2px 2px 12px rgb(180, 180, 180);
+
+                // &::before{
+                //     transform:scale(1,1);
+                // }
+                // & .product-title {
+                //     & a {
+                //         color: $white;
+                //     }
+                // }
+                // & .more, ul {
+                //     color: $white;
+                // }
 
             }
 
@@ -133,7 +136,7 @@
                 flex-direction: row;
                 position: absolute;
                 padding: 0;
-                background-color: $white-gray;
+                background-color: #efefef;
                 height: 100%;
                 width: 33%;
 

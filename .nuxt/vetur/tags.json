@@ -26,6 +26,9 @@
   "CommentForm": {
     "description": "Auto imported from components/CommentForm.vue"
   },
+  "ContactForm": {
+    "description": "Auto imported from components/ContactForm.vue"
+  },
   "Counterup": {
     "description": "Auto imported from components/Counterup.vue"
   },

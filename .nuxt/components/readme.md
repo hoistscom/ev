@@ -15,6 +15,7 @@ You can directly use them in pages and other components without the need to impo
 - `<BrandLogoCarousel>` | `<brand-logo-carousel>` (components/BrandLogoCarousel.vue)
 - `<Breadcrumb>` | `<breadcrumb>` (components/Breadcrumb.vue)
 - `<CommentForm>` | `<comment-form>` (components/CommentForm.vue)
+- `<ContactForm>` | `<contact-form>` (components/ContactForm.vue)
 - `<Counterup>` | `<counterup>` (components/Counterup.vue)
 - `<EvProgram>` | `<ev-program>` (components/EvProgram.vue)
 - `<Features>` | `<features>` (components/Features.vue)
