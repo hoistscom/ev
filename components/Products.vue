@@ -11,6 +11,9 @@
                 </div>
 
                 <div class="col-12">
+                    <div class="mb-30" data-aos="fade-up" data-aos-delay="300">
+                        <p>The world is transitioning to electric vehicles and we can help you meet the demand for charging from your customers and employees. We carry the best EV chargers on the market from manufacturers such as SemaConnect, Clipper Creek, Charge Point, and more. This includes level 2 chargers and level 3 chargers (DCFC: Direct Current Fast Charging).</p>
+                    </div>
                     <div class="product-inner-container">
                         <div class="product-block" data-aos="fade-up" data-aos-delay="300" v-for="(product, index) in products" :key="index">
                             <div class="product-inner-box">
@@ -20,7 +23,7 @@
                                 </div>
                                 <div class="product-inner-box-right">
                                     <h5 class="product-title">
-                                        <n-link to="#contact">{{ product.title }}</n-link>
+                                        <n-link to="#contact">{{ product.title }} EV Chargers</n-link>
                                     </h5>
                                     <ul class="product-list">
                                         <li class="product-item">{{ product.desc1 }}</li>
@@ -48,39 +51,39 @@
                 products: [
                     {
                         title: "SemaConnect",
-                        desc1: "Series 5",
-                        desc2: "Series 6",
-                        desc3: "Series 7",
-                        desc4: "Series 8",
+                        desc1: "Series 5 - Multifamily",
+                        desc2: "Series 6 - Commercial",
+                        desc3: "Series 7 - Fleets",
+                        desc4: "Series 8 - Retail",
                         img: "Series-7-with-Holsters-top-only1.png",
                         link: "https://semaconnect.com/products/"
                     },
                     {
                         title: "Clipper Creek",
-                        desc1: "Series 5",
-                        desc2: "Series 6",
-                        desc3: "Series 7",
-                        desc4: "Series 8",
+                        desc1: "AmazingE Series",
+                        desc2: "LCS Series",
+                        desc3: "LHS Series",
+                        desc4: "Share2 Series",
                         img: "Clipper-Creek1.png",
                         link: "https://semaconnect.com/products/"
                     },
                     {
                         title: "Charge Point",
-                        desc1: "Series 5",
-                        desc2: "Series 6",
-                        desc3: "Series 7",
-                        desc4: "Series 8",
+                        desc1: "Express - DCFS",
+                        desc2: "Express Plus - Scalable DCFS",
+                        desc3: "CT4000 - All-Purpose",
+                        desc4: "CPF50 - Fleets & Multifamily",
                         img: "CP-Express.png",
-                        link: "https://semaconnect.com/products/"
+                        link: "https://www.chargepoint.com/products/commercial"
                     },
                     {
                         title: "Leviton",
-                        desc1: "Series 5",
-                        desc2: "Series 6",
-                        desc3: "Series 7",
-                        desc4: "Series 8",
+                        desc1: "EVR Series",
+                        desc2: "Wall Mount Station",
+                        desc3: "Bollard Station",
+                        desc4: "CPDCF - Public",
                         img: "EVR30-B1C.png",
-                        link: "https://semaconnect.com/products/"
+                        link: "https://www.leviton.com/en/all-products-new/ev-charging/evse-charging#t=Products&sort=%40wcs_site_tree_rank%20ascending&layout=card&f:@tsa_device_type=[Charger]"
                     },
                 ]
             }
