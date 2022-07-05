@@ -11,7 +11,7 @@
                     <div class="history-wrapper">
                         <h1 class="title">About Us <span><img class="small-icon" src="/images/icon/flash.png"/></span></h1>
                         <div class="history-content">
-                            <h4 class="subtitle space-below">Chicago EV is a division of <a href="https://sievertelectric.com" target="_blank">Sievert Electric.</a> We specialize in sale and installation of electric vehicle chargers in the Chicagoland area.</h4>
+                            <h4 class="subtitle space-below">Chicago EV is a division of <a href="https://sievertelectric.com" target="_blank">Sievert Electric.</a> We specialize in the sale and installation of electric vehicle chargers in the Chicagoland area.</h4>
                             <p>We're bringing EV chargers to Chicagoland at lightnight fast speeds! Whether you own a shopping outlet, a parking garage, a fleet of electric vehicles, or any other commercial business, we have a solution that best fits your needs.</p>
                             <p>Take advantage of the new EV charging and infrastructure bill by installing chargers for your business, fleet, or parking garage.</p>
                             <div class="space-below">
