@@ -33,14 +33,14 @@
 
                         <div class="col-lg-2 col-md-2 col-6">
                             <!-- Mobile Menu Hamburger Start -->
-                            <div class="mobile-menu-toggle" @click="mobiletoggleClass('addClass', 'show-mobile-menu')">
+                            <!-- <div class="mobile-menu-toggle" @click="mobiletoggleClass('addClass', 'show-mobile-menu')">
                                 <span>menu</span>
                                 <button class="toggle">
                                     <i class="icon-top"></i>
                                     <i class="icon-middle"></i>
                                     <i class="icon-bottom"></i>
                                 </button>
-                            </div>
+                            </div> -->
                             <!-- Mobile Menu Hamburger End -->
                         </div>
                     </div>

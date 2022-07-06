@@ -2,8 +2,8 @@
     "name": "gothic",
     "version": "1.0.0",
     "engines": {
-        "node": "14.0.0"
-      },
+        "node": "6.9.0"
+    },
     "author": "uzzal",
     "private": true,
     "scripts": {
@@ -13,13 +13,16 @@
         "generate": "nuxt generate"
     },
     "dependencies": {
+        "@nuxtjs/axios": "^5.13.6",
         "@nuxtjs/style-resources": "^1.0.0",
+        "@sendgrid/mail": "^7.7.0",
         "aos": "^2.3.4",
         "bootstrap": "^4.5.2",
         "bootstrap-vue": "^2.21.2",
         "core-js": "^3.15.2",
         "mixitup": "^3.3.1",
         "nuxt": "^2.15.7",
+        "nuxt-mail": "^3.0.23",
         "swiper": "^5.3.7",
         "vue-awesome-swiper": "^4.1.0",
         "vue-backtotop": "^1.6.1",

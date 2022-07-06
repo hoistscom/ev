@@ -1,5 +1,13 @@
 <template>
     <div class="main-container">
+        <!-- Google ReCAPTCHA -->
+        <div
+            class="g-recaptcha"
+            data-sitekey="6LdZOMggAAAAAFdnZAl6yDC7a9iBXLf65hdoqY6o"
+            data-callback="handleSubmit"
+            data-size="invisible"
+            SameSite="secure"
+        ></div>
 
         <TheHeader />
 
