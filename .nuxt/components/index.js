@@ -21,6 +21,7 @@ export { default as OffCanvasMobileMenu } from '../..\\components\\OffCanvasMobi
 export { default as Products } from '../..\\components\\Products.vue'
 export { default as RelatedBlogPost } from '../..\\components\\RelatedBlogPost.vue'
 export { default as SingleTeamMember } from '../..\\components\\SingleTeamMember.vue'
+export { default as SuccessComponent } from '../..\\components\\SuccessComponent.vue'
 export { default as TeamOne } from '../..\\components\\TeamOne.vue'
 export { default as Testimonial } from '../..\\components\\Testimonial.vue'
 export { default as TheHeader } from '../..\\components\\TheHeader.vue'

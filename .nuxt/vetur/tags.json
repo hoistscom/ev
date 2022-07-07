@@ -68,6 +68,9 @@
   "SingleTeamMember": {
     "description": "Auto imported from components/SingleTeamMember.vue"
   },
+  "SuccessComponent": {
+    "description": "Auto imported from components/SuccessComponent.vue"
+  },
   "TeamOne": {
     "description": "Auto imported from components/TeamOne.vue"
   },

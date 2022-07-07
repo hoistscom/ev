@@ -3,49 +3,48 @@
     "name": "about",
     "path": "/about",
     "component": "C:\\\\_ev\\\\ev\\\\pages\\\\about.vue",
-    "chunkName": "pages/about",
-    "_name": "_074cb396"
+    "chunkName": "pages/about"
   },
   {
     "name": "blog",
     "path": "/blog",
     "component": "C:\\\\_ev\\\\ev\\\\pages\\\\blog.vue",
-    "chunkName": "pages/blog",
-    "_name": "_8c245eac"
+    "chunkName": "pages/blog"
   },
   {
     "name": "blog-details",
     "path": "/blog-details",
     "component": "C:\\\\_ev\\\\ev\\\\pages\\\\blog-details.vue",
-    "chunkName": "pages/blog-details",
-    "_name": "_45abb19f"
+    "chunkName": "pages/blog-details"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "C:\\\\_ev\\\\ev\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_4f05c148"
+    "chunkName": "pages/contact"
   },
   {
     "name": "project",
     "path": "/project",
     "component": "C:\\\\_ev\\\\ev\\\\pages\\\\project.vue",
-    "chunkName": "pages/project",
-    "_name": "_1490c3c1"
+    "chunkName": "pages/project"
   },
   {
     "name": "project-details",
     "path": "/project-details",
     "component": "C:\\\\_ev\\\\ev\\\\pages\\\\project-details.vue",
-    "chunkName": "pages/project-details",
-    "_name": "_25d19db6"
+    "chunkName": "pages/project-details"
+  },
+  {
+    "name": "success",
+    "path": "/success",
+    "component": "C:\\\\_ev\\\\ev\\\\pages\\\\success.vue",
+    "chunkName": "pages/success"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\_ev\\\\ev\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_1c1180fa"
+    "chunkName": "pages/index"
   }
 ]

@@ -29,6 +29,7 @@ You can directly use them in pages and other components without the need to impo
 - `<Products>` | `<products>` (components/Products.vue)
 - `<RelatedBlogPost>` | `<related-blog-post>` (components/RelatedBlogPost.vue)
 - `<SingleTeamMember>` | `<single-team-member>` (components/SingleTeamMember.vue)
+- `<SuccessComponent>` | `<success-component>` (components/SuccessComponent.vue)
 - `<TeamOne>` | `<team-one>` (components/TeamOne.vue)
 - `<Testimonial>` | `<testimonial>` (components/Testimonial.vue)
 - `<TheHeader>` | `<the-header>` (components/TheHeader.vue)

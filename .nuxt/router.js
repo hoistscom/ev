@@ -10,6 +10,7 @@ const _45abb19f = () => interopDefault(import('..\\pages\\blog-details.vue' /* w
 const _4f05c148 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
 const _1490c3c1 = () => interopDefault(import('..\\pages\\project.vue' /* webpackChunkName: "pages/project" */))
 const _25d19db6 = () => interopDefault(import('..\\pages\\project-details.vue' /* webpackChunkName: "pages/project-details" */))
+const _00fd33ab = () => interopDefault(import('..\\pages\\success.vue' /* webpackChunkName: "pages/success" */))
 const _1c1180fa = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -47,6 +48,10 @@ export const routerOptions = {
     path: "/project-details",
     component: _25d19db6,
     name: "project-details"
+  }, {
+    path: "/success",
+    component: _00fd33ab,
+    name: "success"
   }, {
     path: "/",
     component: _1c1180fa,
