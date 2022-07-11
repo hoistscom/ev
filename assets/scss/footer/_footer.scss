@@ -11,6 +11,10 @@
         margin-bottom: 56px;
     }
 }
+
+.small-logo {
+    max-width: 160px;
+}
 // Footer Nav Style
 .footer-nav {
     display: flex;
@@ -62,14 +66,14 @@
     font-family: $font-family-base;
     font-weight: 400;
     font-size: 14px;
-    color: $gray-300;
-    margin-bottom: 50px;
+    color: $white;
+    margin-bottom: 90px;
 
     & a {
         font-family: $font-family-base;
         font-weight: 400;
         font-size: 14px;
-        color: $gray-300;
+        color: $white;
 
         &:hover {
             color: $primary;
@@ -102,11 +106,11 @@
 // Copyright
 .copyright {
     font-size: 14px;
-    color: $gray-400;
-    margin-bottom: 50px;
+    color: $white;
+    margin-bottom: 100px;
 
     & span {
-        color: $dark;
+        color: $primary;
         font-weight: 600;
     }
 

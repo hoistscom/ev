@@ -4,8 +4,6 @@
 
         <TheHeader />
 
-        <OffCanvasMobileMenu />
-
         <HeroOne />
 
         <AboutOne />

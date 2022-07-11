@@ -2,11 +2,11 @@
     <footer class="section-padding-top bg-image1 overflow-hidden">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12">
                     <!-- Footer Logo Start -->
                     <div class="footer-logo">
                         <n-link to="/">
-                            <img src="/images/logo/Chicago-EV-Logo-Grey.jpg" alt="Logo Black" />
+                            <img class="small-logo" src="/images/logo/Chicago-EV-Logo.png" alt="Logo Black" />
                         </n-link>
                     </div>
                     <!-- Footer Logo End -->
@@ -39,7 +39,7 @@
                     </div>
                     <!-- Contact Info End -->
 
-                    <!-- Footer Social Icons Start -->
+                    <!-- Footer Social Icons Start 
                     <ul class="footer-social-icons social-media-link justify-content-center">
                         <li>
                             <a href="#" class="icofont-facebook"></a>
@@ -53,14 +53,14 @@
                         <li>
                             <a href="#" class="icofont-linkedin"></a>
                         </li>
-                        <!-- <li>
+                        <li>
                             <a href="#" class="icofont-pinterest"></a>
                         </li>
                         <li>
                             <a href="#" class="icofont-dribbble"></a>
-                        </li> -->
+                        </li>
                     </ul>
-                    <!-- Footer Social Icons End -->
+                    Footer Social Icons End -->
 
                     <!-- Copyright Start -->
                     <div class="copyright">© 2022 <span>Chicago EV</span>
