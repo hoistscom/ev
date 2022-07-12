@@ -69,7 +69,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Chicago EV","titleTemplate":"%s || Chicago EV","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"htmlAttrs":{"lang":"en"},"style":[],"script":[]},
+    head: {"title":"Chicago EV","titleTemplate":"%s || Chicago EV","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Chicago EV sells and installs electric vehicle chargers in the Chicagoland area."},{"hid":"keywords","name":"keywords","content":"ev chargers, ev program, electric vehicles, chicago ev, semaconnect, clipper creek, chicago car chargers"},{"hid":"og:title","property":"og:title","content":"Chicago EV"},{"hid":"og:url","property":"og:url","content":"http:\u002F\u002Fev-chicago.herokuapp.com"},{"hid":"og:description","property":"og:description","content":"Chicago EV sells and installs electric vehicle chargers in the Chicagoland area."},{"hid":"og:image","property":"og:image","content":"\u002Fstatic\u002Fimages\u002Flogo\u002FChicago-EV-Logo"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"htmlAttrs":{"lang":"en"},"style":[],"script":[]},
 
     router,
     nuxt: {

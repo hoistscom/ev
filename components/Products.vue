@@ -18,7 +18,7 @@
                         <div class="product-block" data-aos="fade-up" data-aos-delay="300" v-for="(product, index) in products" :key="index">
                             <div class="product-inner-box">
                                 <div class="product-inner-box-left">
-                                    <img class="product-img" :src="`/images/products/${product.img}`"/>
+                                    <img class="product-img" :src="`/images/products/${product.img}`"  :alt="`${product.alt}`"/>
                                     <!-- <n-link to="/about" class="more">more details</n-link> -->
                                 </div>
                                 <div class="product-inner-box-right">
