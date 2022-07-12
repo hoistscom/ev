@@ -48,7 +48,19 @@
 
         head() {
             return {
-                title: 'EV Chargers'
+                title: 'EV Chargers',
+                meta: [
+                    {
+                        hid: 'description',
+                        name: 'description',
+                        content: 'Chicago EV sells and installs electric vehicle chargers in the Chicagoland area.'
+                    },
+                    {
+                        hid: 'keywords',
+                        name: 'keywords',
+                        content: 'ev chargers, ev program, electric vehicles, chicago ev, semaconnect, clipper creek, chicago car chargers'
+                    },
+                ]
             }
         },
     };

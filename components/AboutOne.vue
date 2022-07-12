@@ -4,12 +4,12 @@
             <div class="row mb-n10">
                 <div class="col-lg-6 mb-10 col-md-12 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500">
                     <div class="history-image">
-                        <img class="fit-image" src="/images/history/pedestal-large.png" alt="">
+                        <img class="fit-image" src="/images/history/pedestal-large.png" alt="SemaConnect EV Charger">
                     </div>
                 </div>
                 <div class="col-lg-6 mb-10 col-md-12 align-self-center order-1 order-lg-2" data-aos="fade-left" data-aos-delay="500">
                     <div class="history-wrapper">
-                        <h1 class="title">About Us <span><img class="small-icon" src="/images/icon/flash.png"/></span></h1>
+                        <h1 class="title">About Us <span><img class="small-icon" src="/images/icon/flash.png" alt="Blue Thunder Bolt"/></span></h1>
                         <div class="history-content">
                             <h4 class="subtitle space-below">Chicago EV is a division of <a href="https://sievertelectric.com" target="_blank">Sievert Electric.</a> We specialize in the sale and installation of electric vehicle chargers in the Chicagoland area.</h4>
                             <p>We're bringing EV chargers to Chicagoland at lightnight fast speeds! Whether you own a shopping outlet, a parking garage, a fleet of electric vehicles, or any other commercial business, we have a solution that best fits your needs.</p>

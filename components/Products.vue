@@ -56,7 +56,8 @@
                         desc3: "Series 7 - Fleets",
                         desc4: "Series 8 - Retail",
                         img: "Series-7-with-Holsters-top-only1.png",
-                        link: "https://semaconnect.com/products/"
+                        link: "https://semaconnect.com/products/",
+                        alt: "SemaConnect EV Charger - Series 7"
                     },
                     {
                         title: "Clipper Creek",
@@ -65,7 +66,8 @@
                         desc3: "LHS Series",
                         desc4: "Share2 Series",
                         img: "Clipper-Creek1.png",
-                        link: "https://semaconnect.com/products/"
+                        link: "https://semaconnect.com/products/",
+                        alt: "Clipper Creek EV Charger - AmazingE Series"
                     },
                     {
                         title: "Charge Point",
@@ -74,7 +76,8 @@
                         desc3: "CT4000 - All-Purpose",
                         desc4: "CPF50 - Fleets & Multifamily",
                         img: "CP-Express.png",
-                        link: "https://www.chargepoint.com/products/commercial"
+                        link: "https://www.chargepoint.com/products/commercial",
+                        alt: "Charge Point EV Charger - Express",
                     },
                     {
                         title: "Leviton",
@@ -83,7 +86,8 @@
                         desc3: "Bollard Station",
                         desc4: "CPDCF - Public",
                         img: "EVR30-B1C.png",
-                        link: "https://www.leviton.com/en/all-products-new/ev-charging/evse-charging#t=Products&sort=%40wcs_site_tree_rank%20ascending&layout=card&f:@tsa_device_type=[Charger]"
+                        link: "https://www.leviton.com/en/all-products-new/ev-charging/evse-charging#t=Products&sort=%40wcs_site_tree_rank%20ascending&layout=card&f:@tsa_device_type=[Charger]",
+                        alt: "Leviton EV Charger - EVR Series"
                     },
                 ]
             }

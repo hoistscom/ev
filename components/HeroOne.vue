@@ -11,7 +11,7 @@
                                     <h4 class="subtitle">{{ hero.subTitle }}</h4>
                                     <h2 class="title" v-html="hero.title">{{ hero.title }}</h2>
                                     <p>{{ hero.desc }}</p>
-                                    <n-link :to="hero.btnUrl" class="btn-link">Learn More</n-link>
+                                    <n-link :to="hero.btnUrl" class="btn-link">EV Charger Program</n-link>
                                     <n-link :to="hero.btnUrl" class="btn-link cta-space">Our Services</n-link>
                                 </div>
                             </div>

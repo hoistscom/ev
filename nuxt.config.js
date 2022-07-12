@@ -10,12 +10,19 @@ export default {
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: '' }
+            { hid: 'description', name: 'description', content: 'Chicago EV sells and installs electric vehicle chargers in the Chicagoland area.' },
+            { hid: 'keywords', name: 'keywords', content: 'ev chargers, ev program, electric vehicles, chicago ev, semaconnect, clipper creek, chicago car chargers'},
+            { hid: 'og:title', property: 'og:title', content: 'Chicago EV' },
+            { hid: 'og:url', property: 'og:url', content: 'http://ev-chicago.herokuapp.com' },
+            { hid: 'og:description', property: 'og:description', content: 'Chicago EV sells and installs electric vehicle chargers in the Chicagoland area.' },
+            { hid: 'og:image', property: 'og:image', content: '/static/images/logo/Chicago-EV-Logo'},
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         ],
-        
+        htmlAttrs: {
+            lang: "en",
+          },
     },
 
     // Global CSS (https://go.nuxtjs.dev/config-css)

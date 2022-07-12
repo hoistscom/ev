@@ -17,7 +17,7 @@
                             <p class="white-txt">(b) The Agency shall award rebates or grants that fund up to 80% of the cost of the installation of charging stations. ...</p>
 
                             <a href="https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=002006270K55" target="_blank">
-                                <p class="btn btn-light btn-hover-dark read-more-btn">Read More</p>
+                                <p class="btn btn-light btn-hover-dark read-more-btn">Read The EV Charger Bill</p>
                             </a>
                         </div>
                     </div>
