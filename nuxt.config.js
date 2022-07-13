@@ -15,7 +15,7 @@ export default {
             { hid: 'og:title', property: 'og:title', content: 'Chicago EV' },
             { hid: 'og:url', property: 'og:url', content: 'http://ev-chicago.herokuapp.com' },
             { hid: 'og:description', property: 'og:description', content: 'Chicago EV sells and installs electric vehicle chargers in the Chicagoland area.' },
-            { hid: 'og:image', property: 'og:image', content: '/static/images/logo/Chicago-EV-Logo'},
+            { hid: 'og:image', property: 'og:image', content: '/static/images/slider/Chicago-EV.jpg'},
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
