@@ -6,6 +6,9 @@
 
         <HeroOne />
 
+        <!-- Embedded image for sharing -->
+        <img type="hidden" url="../static/images/slider/Chicago-EV.jpg" />
+
         <AboutOne />
 
         <Features />
