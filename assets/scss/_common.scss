@@ -371,6 +371,9 @@ ul{
         line-height: 40px;
         font-size: 18px;
     }
+    @media #{$desktop-device, $laptop-device, $extraBig-device}{
+        display: none;
+    }
 
     i{
         position: absolute;

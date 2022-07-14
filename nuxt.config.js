@@ -14,8 +14,9 @@ export default {
             { hid: 'keywords', name: 'keywords', content: 'ev chargers, ev program, electric vehicles, chicago ev, semaconnect, clipper creek, chicago car chargers'},
             { hid: 'og:title', property: 'og:title', content: 'Chicago EV' },
             { hid: 'og:url', property: 'og:url', content: 'http://ev-chicago.herokuapp.com' },
-            { hid: 'og:description', property: 'og:description', content: 'Chicago EV sells and installs electric vehicle chargers in the Chicagoland area.' },
+            { hid: 'og:description', property: 'og:description', content: "Chicago EV sells and installs electric vehicle chargers in the Chicagoland area. Whether you own a shopping outlet, a parking garage, a fleet of electric vehicles, or any other commercial business, we have a solution that best fits your needs." },
             { hid: 'og:image', property: 'og:image', content: 'http://ev-chicago.herokuapp.com/images/slider/Chicago-EV.jpg'},
+            { hid: 't-type', name: 'twitter:card', content: 'summary_large_image' },
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
