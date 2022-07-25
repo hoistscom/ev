@@ -23,6 +23,8 @@ You can directly use them in pages and other components without the need to impo
 - `<GalleryWithFilter>` | `<gallery-with-filter>` (components/GalleryWithFilter.vue)
 - `<GelleryOne>` | `<gellery-one>` (components/GelleryOne.vue)
 - `<HeroOne>` | `<hero-one>` (components/HeroOne.vue)
+- `<HeroTwo>` | `<hero-two>` (components/HeroTwo.vue)
+- `<Logo>` | `<logo>` (components/Logo.vue)
 - `<MobileNavigation>` | `<mobile-navigation>` (components/MobileNavigation.vue)
 - `<Navigation>` | `<navigation>` (components/Navigation.vue)
 - `<OffCanvasMobileMenu>` | `<off-canvas-mobile-menu>` (components/OffCanvasMobileMenu.vue)

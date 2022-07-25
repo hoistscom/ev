@@ -34,41 +34,37 @@
                     // Responsive breakpoints
                     breakpoints: {
                         320: {
-                            slidesPerView: 2
+                            slidesPerView: 1
                         },
                         480: {
-                            slidesPerView: 3
+                            slidesPerView: 2
                         },
                         768: {
-                            slidesPerView: 4
+                            slidesPerView: 3
                         },
                         992: {
-                            slidesPerView: 5
+                            slidesPerView: 4
                         }
                     }
                 },
 
                 brandLogos: [
                     {
-                        imgSrc: "/images/brand-logo/1.png",
+                        imgSrc: "/images/brand-logo/ChargePoint_logo1.png",
                         alt: "brand logo"
                     },
                     {
-                        imgSrc: "/images/brand-logo/2.png",
+                        imgSrc: "/images/brand-logo/clippercreek-logo1.png",
                         alt: "brand logo"
                     },
                     {
-                        imgSrc: "/images/brand-logo/3.png",
+                        imgSrc: "/images/brand-logo/Leviton-Logo1.png",
                         alt: "brand logo"
                     },
                     {
-                        imgSrc: "/images/brand-logo/4.png",
+                        imgSrc: "/images/brand-logo/SemaConnectlogo1.png",
                         alt: "brand logo"
                     },
-                    {
-                        imgSrc: "/images/brand-logo/5.png",
-                        alt: "brand logo"
-                    }
                 ]
             }
         },

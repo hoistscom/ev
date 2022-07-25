@@ -25,6 +25,8 @@
         4.11 Breadcrumb CSS
         4.12 Products CSS
         4.13 EV Program CSS
+        4.14 HeroTwo CSS
+        4.15 Site Logo CSS
     05. Pages CSS
         5.1 Project Page CSS
         5.2 Blog Page CSS
@@ -41,6 +43,7 @@
 @import "header/sidebar-mobile-menu";
 @import "header/mobile-menu-toggle";
 @import "component/hero-slider";
+@import "component/hero-two";
 @import "component/button";
 @import "component/history";
 @import "component/service";

@@ -50,6 +50,12 @@
   "HeroOne": {
     "description": "Auto imported from components/HeroOne.vue"
   },
+  "HeroTwo": {
+    "description": "Auto imported from components/HeroTwo.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
   "MobileNavigation": {
     "description": "Auto imported from components/MobileNavigation.vue"
   },

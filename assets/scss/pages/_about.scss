@@ -7,11 +7,13 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    background-position: 65%;
 
     // res
-    @media #{$tablet-device, $large-mobile}{
-        height: 400px;
-    }
+    // @media #{$large-mobile, $small-mobile, $tablet-device}{
+    //     height: 80vh;
+    //     min-height: 600px;
+    // }
 
     & .content {
         display: flex;

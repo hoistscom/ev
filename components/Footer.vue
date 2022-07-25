@@ -1,8 +1,8 @@
 <template>
-    <footer class="section-padding-top bg-image1 overflow-hidden">
+    <footer class="section-padding-top footer-cover glow overflow-hidden">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-6">
                     <!-- Footer Logo Start -->
                     <div class="footer-logo">
                         <n-link to="/">
@@ -70,5 +70,30 @@
                 </div>
             </div>
         </div>
+        <!-- <div class="footer-cover">
+            <img src="/images/slider/car-footer.svg" alt="Logo Black">
+        </div> -->
     </footer>
 </template>
+
+<style lang="scss">
+    .glow {
+        // background-image: radial-gradient(elipse at farthest-corner 100% -100%, rgba(175, 175, 175, 0) 100%, rgba(175, 175, 175, 1) 75% );
+        background:radial-gradient(circle at 90% -10%, rgba(22, 22, 22, 0.8) 0%, rgba(0, 0, 0, 1) 29%);
+    }
+    .footer-cover {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        &:before{
+            content: url("/images/slider/car-footer.svg");
+            // background-image: "/images/slider/car-footer.svg";
+            width: 250px important;
+            background-size: 50%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            max-width: 30%;
+        }
+    }
+</style>

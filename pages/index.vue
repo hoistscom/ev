@@ -4,7 +4,7 @@
 
         <TheHeader />
 
-        <HeroOne />
+        <HeroTwo />
 
         <!-- Embedded image for sharing -->
         <img type="hidden" url="../static/images/slider/Chicago-EV.jpg" />
@@ -40,7 +40,7 @@
         components: {
             TheHeader: () => import('@/components/TheHeader'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            HeroOne: () => import('@/components/HeroOne'),
+            HeroTwo: () => import('@/components/HeroTwo'),
             AboutOne: () => import('@/components/AboutOne'),
             Features: () => import('@/components/Features'),
             Counterup: () => import('@/components/Counterup'),

@@ -8,7 +8,8 @@
                             <!-- Header Logo Start -->
                             <div class="header-logo">
                                 <n-link to="#hero">
-                                    <img class="fit-image" src="/images/logo/Chicago-EV-Logo.png" alt="Header Logo">
+                                    <Logo />
+                                    <!-- <img class="fit-image" src="/images/logo/Chicago-EV-Logo.png" alt="Header Logo"> -->
                                 </n-link>
                             </div>
                             <!-- Header Logo End -->
