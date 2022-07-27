@@ -57,21 +57,13 @@ export default {
         // https://go.nuxtjs.dev/bootstrap
         'bootstrap-vue/nuxt',
         '@nuxtjs/style-resources',
-        '@nuxtjs/axios',
-        ['nuxt-mail', {
-            message: {
-                to: 'tim@hoists.com',
-            },
-            smtp: {
-                host: 'smtp.mailtrap.io',
-                port: 2525,
-                auth: {
-                    user: 'f41dffb1cd6c3e',
-                    pass: 'ad21e6c3b01592'
-                },
-            },
-        }],
+        '@nuxtjs/robots'
     ],
+
+    robots: {
+        UserAgent: '*',
+        Disallow: ''
+    },
 
     styleResources: {
         scss: [

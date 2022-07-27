@@ -66,6 +66,5 @@ export default {
 
     .box {
         animation: colorChange 1.75s infinite ease-in-out;
-
     }
 </style>

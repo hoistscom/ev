@@ -14,12 +14,10 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 import nuxt_plugin_plugin_595a4e99 from 'nuxt_plugin_plugin_595a4e99' // Source: .\\components\\plugin.js (mode: 'all')
 import nuxt_plugin_bootstrapvue_67eb026b from 'nuxt_plugin_bootstrapvue_67eb026b' // Source: .\\bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_axios_4b2fbf88 from 'nuxt_plugin_axios_4b2fbf88' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_vueawesomeswiper_5ce03f58 from 'nuxt_plugin_vueawesomeswiper_5ce03f58' // Source: ..\\plugins\\vue-awesome-swiper.js (mode: 'all')
 import nuxt_plugin_Mixitupclient_93a1f82c from 'nuxt_plugin_Mixitupclient_93a1f82c' // Source: ..\\plugins\\Mixitup.client.js (mode: 'client')
 import nuxt_plugin_aos_5e4622cf from 'nuxt_plugin_aos_5e4622cf' // Source: ..\\plugins\\aos (mode: 'client')
 import nuxt_plugin_vuebacktotop_ad80613c from 'nuxt_plugin_vuebacktotop_ad80613c' // Source: ..\\plugins\\vue-backtotop.js (mode: 'client')
-import nuxt_plugin_distpluginaa3e9b6a_619d31c3 from 'nuxt_plugin_distpluginaa3e9b6a_619d31c3' // Source: .\\dist.plugin.aa3e9b6a.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -191,10 +189,6 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_bootstrapvue_67eb026b(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_4b2fbf88 === 'function') {
-    await nuxt_plugin_axios_4b2fbf88(app.context, inject)
-  }
-
   if (typeof nuxt_plugin_vueawesomeswiper_5ce03f58 === 'function') {
     await nuxt_plugin_vueawesomeswiper_5ce03f58(app.context, inject)
   }
@@ -209,10 +203,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_vuebacktotop_ad80613c === 'function') {
     await nuxt_plugin_vuebacktotop_ad80613c(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_distpluginaa3e9b6a_619d31c3 === 'function') {
-    await nuxt_plugin_distpluginaa3e9b6a_619d31c3(app.context, inject)
   }
 
   // Lock enablePreview in context
