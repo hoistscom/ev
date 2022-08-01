@@ -3,7 +3,7 @@
         <div class="footer-cover">
             <div class="container footer-content">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
                             <n-link to="/">
@@ -65,8 +65,7 @@
                         Footer Social Icons End -->
 
                         <!-- Copyright Start -->
-                        <div class="copyright">© 2022 <span>Chicago EV</span>
-                            <p>All rights reserved</p>
+                        <div class="copyright">© 2022 <span>Chicago EV</span> All rights reserved                            
                         </div>
                         <!-- Copyright End -->
                     </div>
@@ -86,31 +85,33 @@
         background:radial-gradient(circle at 90% -10%, rgba(22, 22, 22, 0.8) 0%, rgba(0, 0, 0, 1) 29%);
     }
     .footer-cover {
-        background-position: center;
-        background-size: cover;
+        background-position: right bottom;
+        // background-size: 20;
         background-repeat: no-repeat;
+        background-image: url("/images/slider/car-footer.svg");
         z-index: -1;
-        &::before{
-            content: url("/images/slider/car-footer.svg");
-            // background: url("/images/slider/car-footer.svg");
-            background-size: 100%;
-            // width: 400px;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            // max-width: 50%;
-            position: relative;
-        }
+
+    //     &::before{
+    //         content: url("/images/slider/car-footer.svg");
+    //         // background: url("/images/slider/car-footer.svg");
+    //         background-size: 100%;
+    //         // width: 400px;
+    //         top: 0;
+    //         right: 0;
+    //         bottom: 0;
+    //         // max-width: 50%;
+    //         position: relative;
+    //     }
     }
     .footer-content {
         margin-top: 0;
 
         @media #{$extraBig-device, $laptop-device, $desktop-device} {
-            margin-top: -750px;
+            margin-top: 100px;
         }
         
         @media #{$large-mobile, $small-mobile, $extra-small-mobile} {
-            margin-top: -75px;
+            margin-top: 75px;
         }
     }
     .small-footer-logo {
