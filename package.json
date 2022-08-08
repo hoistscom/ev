@@ -1,7 +1,10 @@
 {
     "name": "chicago-ev",
     "version": "1.0.0",
-    "author": "hoists",
+    "engines": {
+        "node": "14.0.0"
+    },
+    "author": "hoist",
     "private": true,
     "scripts": {
         "dev": "nuxt",
@@ -10,12 +13,13 @@
         "generate": "nuxt generate"
     },
     "dependencies": {
+
         "@nuxtjs/robots": "^2.5.0",
         "@nuxtjs/style-resources": "^1.0.0",
         "aos": "^2.3.4",
         "bootstrap": "^4.5.2",
         "bootstrap-vue": "^2.21.2",
-        "core-js": "^2.6.12",
+        "core-js": "^3.15.2",
         "mixitup": "^3.3.1",
         "nuxt": "^2.15.7",
         "swiper": "^5.3.7",
