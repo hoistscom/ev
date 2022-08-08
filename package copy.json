@@ -1,7 +1,10 @@
 {
     "name": "chicago-ev",
     "version": "1.0.0",
-    "author": "hoists",
+    "engines": {
+        "node": "16.16.0"
+    },
+    "author": "hoist",
     "private": true,
     "scripts": {
         "dev": "nuxt",
