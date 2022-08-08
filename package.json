@@ -1,10 +1,10 @@
 {
-    "name": "gothic",
+    "name": "chicago-ev",
     "version": "1.0.0",
     "engines": {
-        "node": "14.0.0"
+        "node": "16.0.0"
     },
-    "author": "uzzal",
+    "author": "hoist",
     "private": true,
     "scripts": {
         "dev": "nuxt",
