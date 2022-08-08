@@ -10,17 +10,14 @@
         "generate": "nuxt generate"
     },
     "dependencies": {
-        "@nuxtjs/axios": "^5.13.6",
         "@nuxtjs/robots": "^2.5.0",
         "@nuxtjs/style-resources": "^1.0.0",
-        "@sendgrid/mail": "^7.7.0",
         "aos": "^2.3.4",
         "bootstrap": "^4.5.2",
         "bootstrap-vue": "^2.21.2",
-        "core-js": "^3.15.2",
+        "core-js": "^2.6.12",
         "mixitup": "^3.3.1",
         "nuxt": "^2.15.7",
-        "nuxt-mail": "^3.0.23",
         "swiper": "^5.3.7",
         "vue-awesome-swiper": "^4.1.0",
         "vue-backtotop": "^1.6.1",
