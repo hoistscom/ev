@@ -2,13 +2,14 @@
     "name": "chicago-ev",
     "version": "1.0.0",
     "engines": {
-        "node": "16.0.0"
+        "node": "16.14.0"
     },
     "author": "hoist",
     "private": true,
     "scripts": {
         "dev": "nuxt",
-        "build": "nuxt build",
+        // "build": "nuxt build",        
+        "build": "npm run build",        
         "start": "nuxt start",
         "generate": "nuxt generate"
     },
