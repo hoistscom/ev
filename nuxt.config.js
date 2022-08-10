@@ -1,7 +1,5 @@
 export default {
-    generate: {
-        fallback: true
-    },
+
     
     // Global page headers (https://go.nuxtjs.dev/config-head)
     head: {
@@ -67,7 +65,7 @@ export default {
 
     styleResources: {
         scss: [
-            '~/assets/scss/_variables.scss',
+            '~/assets/scss/_variables.scss'
         ]
     },
 
