@@ -39,27 +39,27 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 form-group">
                                     <label for="cars">Full Name*</label>
-                                    <input class="input-item" type="text" name="Name" required>
+                                    <input class="input-item" type="text" placeholder="John Doe" name="Name" required>
                                 </div>
 
                                 <div class="col-lg-4 col-md-6 form-group">
                                     <label for="cars">Email*</label>
-                                    <input class="input-item" type="email" name="Email" required>
+                                    <input class="input-item" type="email" placeholder="johndoe@email.com" name="Email" required>
                                 </div>
 
                                 <div class="col-lg-4 col-md-12 form-group">
                                     <label for="cars">Phone Number</label>
-                                    <input class="input-item" type="tel" name="Phone Number">
+                                    <input class="input-item" type="tel" placeholder="7735551234" name="Phone Number">
                                 </div>
 
                                 <div class="col-lg-4 col-md-6 form-group">
                                     <label for="cars">Company Name</label>
-                                    <input class="input-item" type="text" name="Company Name">
+                                    <input class="input-item" type="text" placeholder="ABC Corp" name="Company Name">
                                 </div>
 
                                 <div class="col-lg-4 col-md-6 form-group">
                                     <label for="cars">Company Address</label>
-                                    <input class="input-item" type="text" name="Company Address">
+                                    <input class="input-item" type="text" placeholder="123 Main St. Chicago, IL" name="Company Address">
                                 </div>
 
                                 <div class="col-lg-4 col-md-12 form-group">
@@ -92,7 +92,7 @@
                                 <div class="col-lg-12 form-group mb-10">
                                     <label for="cars">Message*</label>
                                     <div class="input-item">
-                                        <textarea class="textarea-item" name="Message" required></textarea>
+                                        <textarea class="textarea-item" name="Message" placeholder="I need XYZ services for my parking garage..." required></textarea>
                                     </div>
                                 </div>
 
@@ -116,5 +116,5 @@
 <script>
 </script>
 
-<style>
+<style lang="scss" scoped>
 </style>
